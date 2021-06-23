@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>lab 02</title>
+    <title>Name tag with JS</title>
+    <link rel='stylesheet' href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Poppins:ital,wght@0,500;1,500&display=swap" rel="stylesheet">    
 </head>
-
 <body>
-    <main>
-        <div class="name-tag">
-            <section class="top">
+    <button id="submit-button">Update Name</button>
+    <input type="text" id="name-input"> 
+    <p></p>
+
+    <button id="pronoun-button">Update Pronouns</button>
+    <input type="text" id="pronoun-input">
+    <p></p>
+
+    <button id="color-blue">Blue</button>
+    <button id="color-pink">Pink</button>
+    <button id="color-green">Green</button>
+
+
+
+    <p></p>
+    <main id="name-tag">
+        
+        
+        <section class="top" id="top-section">
                 <h1>Hello</h1>
                 <h2>my name is</h2>
-            </section>
-            <section class="middle">Kristen Dodd</section>
-            <section class="bottom"> </section>
-        </div>
+        </section>
+        <section class="middle" id="name-section">
+           Kristen Dodd
+        </section>
+        <section class="middle" id="pronoun-section">she/her</section>
+        <section class="bottom" id="bottom-section">
+             </section>
     </main>
+    <script type="module" src="index.js"></script>
 </body>
+
 </html>
